@@ -1,3 +1,3 @@
-# Run a different version of Ubuntu this time - artful version
+# Run a different version of Ubuntu this time - artful version print contents of /etc/hosts file
 
-docker run ubuntu:artful
+docker run ubuntu:artful cat /etc/hosts
